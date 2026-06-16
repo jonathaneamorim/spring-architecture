@@ -96,7 +96,32 @@ Também: Kotlin, Groovy
     - /actuator/env
     - /actuator/loggers
 
-    Exemplos: 
+    Exemplos:
     ![Actuator 1](/media/actuator1.png "Actuator 1")
     ![Actuator 1](/media/actuator2.png "Actuator 2")
     ![Actuator 1](/media/actuator3.png "Actuator 3")
+
+## Principais Aplicações
+### REST APIs
+Criação de APIs RESTful com Spring MVC. Suporte nativo a JSON, validação e documentação com OpenAPI/Swagger.
+![Actuator 1](/media/swagger.png "Swagger")
+### Microserviços
+Spring Cloud resolve três problemas de quem tem múltiplos serviços rodando:
+- Eureka — os serviços se encontram pelo nome, sem precisar saber o IP um do outro
+- Resilience4j — se um serviço cair, os outros não travam esperando; retornam uma resposta alternativa
+- API Gateway — porta de entrada única que roteia as requisições para o serviço certo
+### Aplicações Web
+Servidor MVC completo com Thymeleaf, segurança (Spring Security) e internacionalização.
+### Batch Processing
+Spring Batch para processamento em lote de grandes volumes de dados com steps, jobs e readers/writers.
+### Mensageria
+Integração com Kafka, RabbitMQ e ActiveMQ via Spring AMQP e Spring for Apache Kafka.
+### Data & Persistence
+JPA/Hibernate, Spring Data, MongoDB, Redis — com repositórios automáticos e transações gerenciadas.
+
+## Exemplo prático - REST API com Docker
+Demo: docker run -p 8080:8080 springio/gs-rest-service
+## Ecossistema Spring
+
+## Vantagens & Desvantagens
+

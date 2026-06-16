@@ -44,6 +44,8 @@ Atualmente: VMware / Broadcom
 Java (JVM)  
 Também: Kotlin, Groovy
 
+---
+
 ## Como Funciona o Spring Boot?
 - Auto-Configuração
   - Detecta automaticamente as dependências no classpath e configura beans necessários. Ex: se o H2 está presente, configura um DataSource em memória.
@@ -100,6 +102,8 @@ Também: Kotlin, Groovy
     ![Actuator 1](/media/actuator1.png "Actuator 1")
     ![Actuator 1](/media/actuator2.png "Actuator 2")
     ![Actuator 1](/media/actuator3.png "Actuator 3")
+
+---
 
 ## Principais Aplicações
 
@@ -383,6 +387,8 @@ public void criar3Usuarios(Usuario u1, Usuario u2, Usuario u3) {
 - **Relacionais:** MySQL, PostgreSQL, Oracle, SQL Server
 - **NoSQL:** MongoDB, DynamoDB, Cassandra
 - **Cache:** Redis, Memcached
+
+---
 
 ## Exemplo prático - REST API com Docker
 
@@ -723,20 +729,19 @@ volumes:
 ```
 
 - Readme: Quando se tem um projeto que será acessado por outras pessoas, é mais elegante deixar um arquivo readme detalhando o funcionamento e o start do projeto.
- 
-Execução Local
-1. Clone o repositório.
-2. Configure o arquivo `.env` (baseie-se no `.env.example`).
-3. Execute via Docker:
-```bash
-docker compose up -d --build
-```
-Ou via Maven:
-```bash
-./mvnw spring-boot:run
-```
+    #### Execução Local
+    1. Clone o repositório.
+    2. Configure o arquivo `.env` (baseie-se no `.env.example`).
+    3. Execute via Docker:
+    ```bash
+    docker compose up -d --build
+    ```
+    Ou via Maven:
+    ```bash
+    ./mvnw spring-boot:run
+    ```
 
-pom.xml: Arquivos de dependências que facilitam o desenvolvimento de aplicações complexas e robustas
+- pom.xml: Arquivos de dependências que facilitam o desenvolvimento de aplicações complexas e robustas
 ```xml
 ...
     <properties>
@@ -806,8 +811,4 @@ pom.xml: Arquivos de dependências que facilitam o desenvolvimento de aplicaçõ
 
 Acesse o projeto e veja você mesmo: [Link](https://github.com/jonathaneamorim/Psiconet-Backend)
 
-
-## Ecossistema Spring
-
-## Vantagens & Desvantagens
-
+![12,99](/media/ia_1299.png "Hora da pratica")

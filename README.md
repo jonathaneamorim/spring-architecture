@@ -32,16 +32,16 @@ spring.datasource.password=senha
 Importante: O Spring Boot não substitui o uso do Framework.
 
 ## Criado em
-Abril de 2014
+Abril de 2014  
 Versão 1.0 lançada
 
 ## Empresa
-Criado pela: Pivotal (2014–2019)
-Atualmente: VMware / Broadcom
+Criado pela: Pivotal (2014–2019)  
+Atualmente: VMware / Broadcom  
 ![Pitoval](/media/pivotal.png "Pitoval")
 
 ## Linguagem 
-Java (JVM)
+Java (JVM)  
 Também: Kotlin, Groovy
 
 ## Como Funciona o Spring Boot?
@@ -96,7 +96,7 @@ Também: Kotlin, Groovy
     - /actuator/env
     - /actuator/loggers
 
-    Exemplos:
+    Exemplos:  
     ![Actuator 1](/media/actuator1.png "Actuator 1")
     ![Actuator 1](/media/actuator2.png "Actuator 2")
     ![Actuator 1](/media/actuator3.png "Actuator 3")
